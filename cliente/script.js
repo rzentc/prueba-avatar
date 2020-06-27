@@ -93,7 +93,6 @@ function cargarDetallesPelicula(identificador) {
 
 $(document).ready(function(){
 
-    
     $.ajax({
         url: url_servicio_pelicula, 
         success: function(rpta){
